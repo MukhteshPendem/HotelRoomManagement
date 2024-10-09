@@ -21,7 +21,7 @@ public class OccupancyController {
     }
 
     @GetMapping
-    public String getOccupancy(Model model, @RequestParam(value = "'date", required = false) String dateString){
+    public String getOccupancy(Model model, @RequestParam(value = "date", required = false) String dateString){
 
         Date date = null;
 
